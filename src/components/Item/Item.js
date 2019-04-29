@@ -1,5 +1,6 @@
 import React from 'react';
 import './Item.css';
+import PropTypes from 'prop-types';
 
 /**
  * The application header
@@ -36,6 +37,11 @@ const Item = props => {
       </div>
     </div>
   );
+};
+
+Item.propTypes = {
+  data: PropTypes.object,
+  addItemToCart: PropTypes.func
 };
 
 export default Item;

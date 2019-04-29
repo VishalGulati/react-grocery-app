@@ -2,6 +2,9 @@ import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import './Autocomplete.css';
 
+/**
+ * The autocomplete search box displayed in header
+ */
 class Autocomplete extends Component {
   static propTypes = {
     suggestions: PropTypes.instanceOf(Array)
@@ -138,5 +141,9 @@ class Autocomplete extends Component {
     );
   }
 }
+
+Autocomplete.propTypes = {
+  suggestions: PropTypes.array
+};
 
 export default Autocomplete;

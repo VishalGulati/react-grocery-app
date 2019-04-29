@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import AppHeader from './components/AppHeader/AppHeader';
+import AppHeader from './containers/AppHeader/AppHeader';
 import AppBody from './components/AppBody/AppBody';
 import AppFooter from './components/AppFooter/AppFooter';
 

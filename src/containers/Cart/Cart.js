@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './Cart.css';
 import { connect } from 'react-redux';
 import * as actionTypes from '../../store/actions';
+import PropTypes from 'prop-types';
 
 /**
  * The application cart
@@ -155,6 +156,12 @@ const mapDispatchToProps = dispatch => {
     incrementQty: productId =>
       dispatch({ type: actionTypes.INCREMENT_QUANTITY, payload: { productId } })
   };
+};
+
+Cart.propTypes = {
+  cart: PropTypes.object,
+  decrementQty: PropTypes.func,
+  incrementQty: PropTypes.func
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);

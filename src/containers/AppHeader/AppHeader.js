@@ -3,6 +3,7 @@ import './AppHeader.css';
 import Autocomplete from '../../containers/Autocomplete/Autocomplete';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 /**
  * The application header
@@ -51,6 +52,10 @@ const mapStateToProps = function(store) {
   return {
     cart: store.cart
   };
+};
+
+AppHeader.propTypes = {
+  cart: PropTypes.object
 };
 
 export default withRouter(connect(mapStateToProps)(AppHeader));

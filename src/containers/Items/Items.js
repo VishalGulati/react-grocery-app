@@ -4,9 +4,10 @@ import { API } from '../../axios/http-client';
 import Item from '../../components/Item/Item';
 import * as actionTypes from '../../store/actions';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 /**
- * The application body
+ * The application storefront
  */
 class Items extends Component {
   constructor(props) {
@@ -64,6 +65,10 @@ const mapDispatchToProps = dispatch => {
     onAddToCart: item =>
       dispatch({ type: actionTypes.ADD_TO_CART, payload: { item } })
   };
+};
+
+Items.propTypes = {
+  onAddToCart: PropTypes.func
 };
 
 export default connect(null, mapDispatchToProps)(Items);
