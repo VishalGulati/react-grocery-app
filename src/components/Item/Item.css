@@ -1,0 +1,37 @@
+.item {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid grey;
+  color: black;
+}
+
+.off-indicator {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.item-pic {
+  width: 70%;
+  height: 150px;
+  margin: 10px 15%;
+}
+
+.quantity {
+  margin-top: 25px;
+}
+
+.price-block {
+  margin: 15px 0;
+}
+
+s {
+  display: block;
+}
+
+.btn-atc {
+  background-color: orange;
+  color: white;
+  float: right;
+}

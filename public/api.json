@@ -1,0 +1,56 @@
+[
+  {
+    "productId": 1,
+    "productName": "Saffola Oil",
+    "mrp": 120,
+    "discountPrice": 96,
+    "discountPercent": 20,
+    "quantity": "1kg",
+    "img": "./assets/images/safola.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "Surf Excel",
+    "mrp": 100,
+    "discountPrice": 85,
+    "discountPercent": 15,
+    "quantity": "1kg",
+    "img": "./assets/images/surf-excel.jpg"
+  },
+  {
+    "productId": 3,
+    "productName": "Dairy Milk",
+    "mrp": 50,
+    "discountPrice": 30,
+    "discountPercent": 40,
+    "quantity": "100g",
+    "img": "./assets/images/dairy-milk.jpeg"
+  },
+  {
+    "productId": 4,
+    "productName": "Lays Chips",
+    "mrp": 20,
+    "discountPrice": 18,
+    "discountPercent": 10,
+    "quantity": "120g",
+    "img": "./assets/images/lays.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "Good Day Buiscuit",
+    "mrp": 40,
+    "discountPrice": 32,
+    "discountPercent": 20,
+    "quantity": "125g",
+    "img": "./assets/images/good-day.jpg"
+  },
+  {
+    "productId": 6,
+    "productName": "Coca Cola",
+    "mrp": 60,
+    "discountPrice": 54,
+    "discountPercent": 10,
+    "quantity": "1lt",
+    "img": "./assets/images/coke.jpg"
+  }
+]
