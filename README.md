@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Its a generic grocery application with few items already included in source code that are dsplayed in storefront. User can add item to cart, delete or increment the item quantity.
+
+The project has been modularised into small independent components characterised as follows:
+1. Container - That are connected to REDUX.
+2. Components - That dont interact with REDUX nd just display the static content on screen
 
 ## Available Scripts
 
