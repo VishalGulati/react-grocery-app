@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './Cart.css';
 import { connect } from 'react-redux';
 import * as actionTypes from '../../store/actions';
@@ -114,16 +114,24 @@ class Cart extends Component {
               <div className="col-sm-6">&#x20b9;29</div>
             </div>
             {this.getCartItemsList()}
-            <h5>You think you're lucky, lets see by clicking this button</h5>
-            <button className="btn btn-success" onClick={this.applyDiscount}>
-              Check Discount
-            </button>
             {this.state.discount !== 0 ? (
               <h3>
                 Congratulations, you just got {this.state.discount}% OFF, just
                 pay {Math.ceil(this.state.cartDiscount)}!
               </h3>
-            ) : null}
+            ) : (
+              <Fragment>
+                <h5>
+                  You think you're lucky, lets see by clicking this button
+                </h5>
+                <button
+                  className="btn btn-success"
+                  onClick={this.applyDiscount}
+                >
+                  Check Discount
+                </button>
+              </Fragment>
+            )}
           </div>
         )}
       </div>

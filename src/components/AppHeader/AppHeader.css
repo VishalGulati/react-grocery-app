@@ -20,3 +20,20 @@
     #355c7d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.cart-indicator {
+  display: inline-block;
+  position: fixed;
+  right: 8px;
+  top: 15px;
+  z-index: 11;
+}
+.cart-icon {
+  font-size: 27px;
+  color: orangered;
+  cursor: pointer;
+}
+.cart-length-ind {
+  position: relative;
+  top: -15px;
+  left: 4px;
+}
