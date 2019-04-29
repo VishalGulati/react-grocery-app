@@ -3,7 +3,7 @@ import './Item.css';
 import PropTypes from 'prop-types';
 
 /**
- * The application header
+ * Item in storefront
  */
 const Item = props => {
   const itemInfo = props.data;
