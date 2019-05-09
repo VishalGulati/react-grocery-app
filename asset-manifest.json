@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-grocery-app/static/css/main.135c5686.chunk.css",
-    "main.js": "/react-grocery-app/static/js/main.bbfb669f.chunk.js",
-    "main.js.map": "/react-grocery-app/static/js/main.bbfb669f.chunk.js.map",
+    "main.css": "/react-grocery-app/static/css/main.55dca4ba.chunk.css",
+    "main.js": "/react-grocery-app/static/js/main.dde0d342.chunk.js",
+    "main.js.map": "/react-grocery-app/static/js/main.dde0d342.chunk.js.map",
     "runtime~main.js": "/react-grocery-app/static/js/runtime~main.29c2264e.js",
     "runtime~main.js.map": "/react-grocery-app/static/js/runtime~main.29c2264e.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/react-grocery-app/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.0a61b5bb.chunk.js": "/react-grocery-app/static/js/2.0a61b5bb.chunk.js",
-    "static/js/2.0a61b5bb.chunk.js.map": "/react-grocery-app/static/js/2.0a61b5bb.chunk.js.map",
+    "static/js/2.2f1eff81.chunk.js": "/react-grocery-app/static/js/2.2f1eff81.chunk.js",
+    "static/js/2.2f1eff81.chunk.js.map": "/react-grocery-app/static/js/2.2f1eff81.chunk.js.map",
     "index.html": "/react-grocery-app/index.html",
-    "precache-manifest.b06b9d726b828f012130f476ea421032.js": "/react-grocery-app/precache-manifest.b06b9d726b828f012130f476ea421032.js",
+    "precache-manifest.e425f4680789313bdee934d2f43bc8e8.js": "/react-grocery-app/precache-manifest.e425f4680789313bdee934d2f43bc8e8.js",
     "service-worker.js": "/react-grocery-app/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/react-grocery-app/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.135c5686.chunk.css.map": "/react-grocery-app/static/css/main.135c5686.chunk.css.map"
+    "static/css/main.55dca4ba.chunk.css.map": "/react-grocery-app/static/css/main.55dca4ba.chunk.css.map"
   }
 }
